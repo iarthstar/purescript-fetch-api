@@ -1,5 +1,6 @@
 {
   "name": "purescript-fetch-api",
+  "version": "1.0.0",
   "author": {
     "name": "Arth K. Gajjar",
     "email": "iarthstar@gmail.com",
