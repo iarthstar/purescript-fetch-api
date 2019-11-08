@@ -1,0 +1,27 @@
+{
+  "name": "purescript-fetch-api",
+  "version": "1.0.1",
+  "author": {
+    "name": "Arth K. Gajjar",
+    "email": "iarthstar@gmail.com",
+    "url": "https://github.com/iarthstar"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/iarthstar/purescript-fetch-api.git"
+  },
+  "license": "MIT",
+  "private": false,
+  "scripts": {
+    "install": "bower i",
+    "clean": "rm -rf bower_components output node_modules .pulp-cache",
+    "start": "pulp -w test",
+    "test": "pulp test",
+    "build": "pulp build"
+  },
+  "dependencies": {
+    "node-fetch": "^2.6.0",
+    "pulp": "^13.0.0",
+    "purescript": "^0.13.2"
+  }
+}
